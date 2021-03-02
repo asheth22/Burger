@@ -1,5 +1,5 @@
 // Import MySQL connection.
-const connection = require("./connection.js");
+const connection = require("../config/connection.js");
 
 function printQuestionMarks(num) {
   let arr = [];
@@ -45,7 +45,7 @@ const orm = {
     },
   // Object to add a  burger in the database  
   insertOne: function (table, cols, vals, cb) {
-    const queryString = "INSERT INTO " + table;
+    let queryString = "INSERT INTO " + table;
 
     queryString += " (";
     queryString += cols.toString();
@@ -65,7 +65,7 @@ const orm = {
   },
   // Object to update a burger in the database when burger is devoured
   updateOne: function (table, objColVals, condition, cb) {
-    const queryString = "UPDATE " + table;
+    let queryString = "UPDATE " + table;
 
     queryString += " SET ";
     queryString += objToSql(objColVals);
@@ -82,7 +82,7 @@ const orm = {
   },
 // Object to delete a  burger in the database  
   deleteOne: function (table, condition, cb) {
-    const queryString = "DELETE FROM " + table;
+    let queryString = "DELETE FROM " + table;
     queryString += " WHERE ";
     queryString += condition;
 
