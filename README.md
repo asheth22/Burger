@@ -25,7 +25,7 @@ The user accesses the application deployed on Heroku. The application has follow
 
  ## Application URL
 
-* The URL of the deployed application in Heroku [Eat-Da-Burger]( )
+* The URL of the deployed application in Heroku [Eat-Da-Burger](https://polar-castle-85742.herokuapp.com/)
 
 ## Application Demo
 
