@@ -13,17 +13,21 @@ The user accesses the application deployed on Heroku. The application has follow
   * The user can enter the name of the new burger and add it to the list
   * The user can select any burger from New Burgers list and devvour it. This will move the burger to devoured list
   * The user can remove the burger from the list by clicking the delete burtton
-
 ## Application Features
   * node.js
   * express.js
   * handlebars
   ^ MYSQL
-  ## Application URL
+## Usage
+  * Fork application from [github](https://github.com/asheth22/Burger/tree/main/public/assets)
+  * Initialize npm and install npm packages: express, express-handlebars, and mysql
+  * Run application from command line with: node server.js
 
-* The URL of the deployed application in Heroku [Notetaker]( )
+ ## Application URL
+
+* The URL of the deployed application in Heroku [Eat-Da-Burger]( )
 
 ## Application Demo
 
-* Demo of the application [Burger]( )
+* Demo of the application [Burger](https://github.com/asheth22/Burger/tree/main/public/assets/Burger.gif )
 
